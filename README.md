@@ -21,4 +21,4 @@ pip install aimai-search
 [('カツ丼', 90.0), ('カツカレー', 0.0), ('カルテット', 0.0)]
 ```
 
-The search results heavily depend on [cultet](https://github.com/polm/cutlet) and [rapidfuzz](https://github.com/maxbachmann/rapidfuzz).
+The search results heavily depend on [cutlet](https://github.com/polm/cutlet) and [rapidfuzz](https://github.com/maxbachmann/rapidfuzz).
