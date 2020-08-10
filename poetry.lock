@@ -36,7 +36,7 @@ description = "Romaji converter"
 name = "cutlet"
 optional = false
 python-versions = ">=3.5"
-version = "0.1.5"
+version = "0.1.10"
 
 [package.dependencies]
 fugashi = "*"
@@ -239,7 +239,7 @@ colorama = [
     {file = "colorama-0.4.3.tar.gz", hash = "sha256:e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"},
 ]
 cutlet = [
-    {file = "cutlet-0.1.5.tar.gz", hash = "sha256:0e6d5f92ca55924a57c8bd6e53055ddd6718531db746a28a41f98aaf44a2009a"},
+    {file = "cutlet-0.1.10.tar.gz", hash = "sha256:2f591a57d8686810c1c0c4e65299de3f521efc8e64f7e2553ea5761c227a29b2"},
 ]
 cython = [
     {file = "Cython-0.29.21-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:c541b2b49c6638f2b5beb9316726db84a8d1c132bf31b942dae1f9c7f6ad3b92"},
