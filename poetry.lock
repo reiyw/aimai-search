@@ -214,7 +214,7 @@ description = "A small version of UniDic packaged for Python"
 name = "unidic-lite"
 optional = false
 python-versions = "*"
-version = "1.0.6"
+version = "1.0.7"
 
 [[package]]
 category = "dev"
@@ -412,7 +412,7 @@ toml = [
     {file = "toml-0.10.1.tar.gz", hash = "sha256:926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f"},
 ]
 unidic-lite = [
-    {file = "unidic-lite-1.0.6.tar.gz", hash = "sha256:922fce27497df67ba8931595f04d3d0b5c4e91bebbc377eda1da3218500c37d5"},
+    {file = "unidic-lite-1.0.7.tar.gz", hash = "sha256:260798392fddc8746d7d5596dc9f9a4250a10f41961771cf709ec2dc7db8260a"},
 ]
 zipp = [
     {file = "zipp-3.1.0-py3-none-any.whl", hash = "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b"},
