@@ -21,4 +21,3 @@ def test_aimai_search():
     assert a.search_best("katsu don")[0] == "カツ丼"
     assert a.search_best("quartet")[0] == "カルテット"
     assert a.search_best("karutetto")[0] == "カルテット"
-

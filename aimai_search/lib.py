@@ -1,9 +1,9 @@
-from typing import Dict, List, Tuple, Union
+from typing import Dict, List, Tuple
 
 import attr
 import cutlet
 import rapidfuzz
-from more_itertools import unique_everseen, take
+from more_itertools import take, unique_everseen
 
 
 class AttrProto:
