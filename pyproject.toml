@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "aimai-search"
 version = "0.1.0"
-description = ""
+description = "Fuzzy search in both Japanese and English"
 authors = ["reiyw <reiyw.setuve@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/reiyw/aimai-search"
 
 [tool.poetry.dependencies]
 python = "^3.7"
