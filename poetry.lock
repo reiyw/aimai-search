@@ -1,42 +1,40 @@
 [[package]]
-category = "dev"
-description = "Atomic file writes."
-marker = "sys_platform == \"win32\""
 name = "atomicwrites"
+version = "1.4.0"
+description = "Atomic file writes."
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "1.4.0"
 
 [[package]]
-category = "main"
-description = "Classes Without Boilerplate"
 name = "attrs"
+version = "20.2.0"
+description = "Classes Without Boilerplate"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "20.2.0"
 
 [package.extras]
-dev = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface", "sphinx", "sphinx-rtd-theme", "pre-commit"]
+dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface", "sphinx", "sphinx-rtd-theme", "pre-commit"]
 docs = ["sphinx", "sphinx-rtd-theme", "zope.interface"]
-tests = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface"]
-tests_no_zope = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six"]
+tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface"]
+tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six"]
 
 [[package]]
-category = "dev"
-description = "Cross-platform colored terminal text."
-marker = "sys_platform == \"win32\""
 name = "colorama"
+version = "0.4.3"
+description = "Cross-platform colored terminal text."
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-version = "0.4.3"
 
 [[package]]
-category = "main"
-description = "Romaji converter"
 name = "cutlet"
+version = "0.1.12"
+description = "Romaji converter"
+category = "main"
 optional = false
 python-versions = ">=3.5"
-version = "0.1.12"
 
 [package.dependencies]
 fugashi = "*"
@@ -44,20 +42,20 @@ jaconv = "*"
 mojimoji = "*"
 
 [[package]]
-category = "main"
-description = "The Cython compiler for writing C extensions for the Python language."
 name = "cython"
+version = "0.29.21"
+description = "The Cython compiler for writing C extensions for the Python language."
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-version = "0.29.21"
 
 [[package]]
-category = "main"
-description = "A Cython MeCab wrapper for fast, python Japanese tokenization."
 name = "fugashi"
+version = "1.0.0"
+description = "A Cython MeCab wrapper for fast, python Japanese tokenization."
+category = "main"
 optional = false
 python-versions = ">=3.5"
-version = "1.0.0"
 
 [package.dependencies]
 Cython = "*"
@@ -67,13 +65,12 @@ unidic = ["unidic"]
 unidic-lite = ["unidic-lite"]
 
 [[package]]
-category = "dev"
-description = "Read metadata from Python packages"
-marker = "python_version < \"3.8\""
 name = "importlib-metadata"
+version = "1.7.0"
+description = "Read metadata from Python packages"
+category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
-version = "1.7.0"
 
 [package.dependencies]
 zipp = ">=0.5"
@@ -83,156 +80,150 @@ docs = ["sphinx", "rst.linker"]
 testing = ["packaging", "pep517", "importlib-resources (>=1.3)"]
 
 [[package]]
-category = "dev"
-description = "iniconfig: brain-dead simple config-ini parsing"
 name = "iniconfig"
-optional = false
-python-versions = "*"
 version = "1.0.1"
+description = "iniconfig: brain-dead simple config-ini parsing"
+category = "dev"
+optional = false
+python-versions = "*"
 
 [[package]]
-category = "main"
-description = "Pure-Python Japanese character interconverter for Hiragana, Katakana, Hankaku and Zenkaku"
 name = "jaconv"
-optional = false
-python-versions = "*"
 version = "0.2.4"
-
-[[package]]
+description = "Pure-Python Japanese character interconverter for Hiragana, Katakana, Hankaku and Zenkaku"
 category = "main"
-description = "A fast converter between Japanese hankaku and zenkaku characters"
-name = "mojimoji"
 optional = false
 python-versions = "*"
-version = "0.0.11"
 
 [[package]]
+name = "mojimoji"
+version = "0.0.11"
+description = "A fast converter between Japanese hankaku and zenkaku characters"
 category = "main"
-description = "More routines for operating on iterables, beyond itertools"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "more-itertools"
+version = "8.5.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "main"
 optional = false
 python-versions = ">=3.5"
-version = "8.5.0"
 
 [[package]]
-category = "dev"
-description = "Core utilities for Python packages"
 name = "packaging"
+version = "20.4"
+description = "Core utilities for Python packages"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "20.4"
 
 [package.dependencies]
 pyparsing = ">=2.0.2"
 six = "*"
 
 [[package]]
-category = "dev"
-description = "plugin and hook calling mechanisms for python"
 name = "pluggy"
+version = "0.13.1"
+description = "plugin and hook calling mechanisms for python"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "0.13.1"
 
 [package.dependencies]
-[package.dependencies.importlib-metadata]
-python = "<3.8"
-version = ">=0.12"
+importlib-metadata = {version = ">=0.12", markers = "python_version < \"3.8\""}
 
 [package.extras]
 dev = ["pre-commit", "tox"]
 
 [[package]]
-category = "dev"
-description = "library with cross-python path, ini-parsing, io, code, log facilities"
 name = "py"
+version = "1.9.0"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "1.9.0"
 
 [[package]]
-category = "dev"
-description = "Python parsing module"
 name = "pyparsing"
+version = "2.4.7"
+description = "Python parsing module"
+category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-version = "2.4.7"
 
 [[package]]
-category = "dev"
-description = "pytest: simple powerful testing with Python"
 name = "pytest"
+version = "6.1.1"
+description = "pytest: simple powerful testing with Python"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
-version = "6.1.1"
 
 [package.dependencies]
-atomicwrites = ">=1.0"
+atomicwrites = {version = ">=1.0", markers = "sys_platform == \"win32\""}
 attrs = ">=17.4.0"
-colorama = "*"
+colorama = {version = "*", markers = "sys_platform == \"win32\""}
+importlib-metadata = {version = ">=0.12", markers = "python_version < \"3.8\""}
 iniconfig = "*"
 packaging = "*"
 pluggy = ">=0.12,<1.0"
 py = ">=1.8.2"
 toml = "*"
 
-[package.dependencies.importlib-metadata]
-python = "<3.8"
-version = ">=0.12"
-
 [package.extras]
 checkqa_mypy = ["mypy (0.780)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
-category = "main"
-description = "rapid fuzzy string matching"
 name = "rapidfuzz"
+version = "0.12.3"
+description = "rapid fuzzy string matching"
+category = "main"
 optional = false
 python-versions = ">=2.7"
-version = "0.12.2"
 
 [[package]]
-category = "dev"
-description = "Python 2 and 3 compatibility utilities"
 name = "six"
+version = "1.15.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
-version = "1.15.0"
 
 [[package]]
-category = "dev"
-description = "Python Library for Tom's Obvious, Minimal Language"
 name = "toml"
-optional = false
-python-versions = "*"
 version = "0.10.1"
-
-[[package]]
-category = "main"
-description = "A small version of UniDic packaged for Python"
-name = "unidic-lite"
+description = "Python Library for Tom's Obvious, Minimal Language"
+category = "dev"
 optional = false
 python-versions = "*"
-version = "1.0.7"
 
 [[package]]
-category = "dev"
-description = "Backport of pathlib-compatible object wrapper for zip files"
-marker = "python_version < \"3.8\""
+name = "unidic-lite"
+version = "1.0.7"
+description = "A small version of UniDic packaged for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "zipp"
+version = "3.1.0"
+description = "Backport of pathlib-compatible object wrapper for zip files"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
-version = "3.1.0"
 
 [package.extras]
 docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "d423638971cc1b3460281397dacfd95e12125758df2ba44dae6889e42e5ea7ba"
-lock-version = "1.0"
+lock-version = "1.1"
 python-versions = "^3.7"
+content-hash = "d423638971cc1b3460281397dacfd95e12125758df2ba44dae6889e42e5ea7ba"
 
 [metadata.files]
 atomicwrites = [
@@ -351,57 +342,45 @@ pytest = [
     {file = "pytest-6.1.1.tar.gz", hash = "sha256:8f593023c1a0f916110285b6efd7f99db07d59546e3d8c36fc60e2ab05d3be92"},
 ]
 rapidfuzz = [
-    {file = "rapidfuzz-0.12.2-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:293bee9ad80a153e907afee4a3279b225eaa69ce0abfe2e083c5feb6c1197237"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27m-manylinux1_i686.whl", hash = "sha256:2bab0991991ef7b0d3d514209fcbd7a77345054cce1ae634abeec002ed08f72e"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:cf03731f0a870adc3bab5aa3b35a310645a6741c6a7d695648447e851597e908"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:34bc093576c0d3e17f441627b5fa97a48885cab47baffdf4b81fd5bee555b1ff"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:673de9a06ebf768de3897203168db42cca4e96fdc8f035fb4e6b1ce7ef513b25"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27mu-manylinux1_i686.whl", hash = "sha256:2c2dbd6b8cc73fd52d06e8a8e81e9bf2a3faf2b7a60e462f203122254eb90eb2"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:dddb7a7123bb00c41701f9d36cc5b721c5b31542a66662f0c0d54b00a625772b"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27mu-manylinux2010_i686.whl", hash = "sha256:daad54db134d4891b124a7f3a8bbe4f26ee650bdc2c6883e1b7d6a4f5dfe5553"},
-    {file = "rapidfuzz-0.12.2-cp27-cp27mu-manylinux2010_x86_64.whl", hash = "sha256:eeaea2e9769b3f3a257659686e756f5173295e5ecbf3b2a52777732e3706aef7"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:4168b980632f940dddee00fa727d6e35e58cf987daf3c8cd360d9886f14b7099"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:811ef7392e1b011fa03fc18a5d7724d72a4a5c2cf1c40a0d95ccd887fb004a6b"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:d0df0c7db4004546c673ece67f646e9d1337fe212352b6d54f154b8cc6ce0afe"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:990854e23a7d18e22447551b7a9fa169b449d7adb5cafc1fac5238cd3aaa9866"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:15a0d26e02fe3659fc19961ccccd6558b4e62509800089d056ff4f9c17393636"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-win32.whl", hash = "sha256:2461a60f32ff77a7f1dbe3b60786077b9a30a9ab41d46fb4066e69614d5ed452"},
-    {file = "rapidfuzz-0.12.2-cp35-cp35m-win_amd64.whl", hash = "sha256:292bfd6e46d77fe36581a7183a3beeb5056884daec6195215879fd60d183edfd"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:df7a2a59ec76103651bc522d835af1303965ba298bb067ba74dcb21e3ddc8380"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:874aa719ccceaeb35113a571327b8f356b6db425b6aabaaeca653e35152319a7"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:ec51553d9ba80b7d9561338d13b492b12feb7b9e116b2b7c19252af776857ec8"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:acce59ebcb5b2b2788647d57b703739119edf3f17a78249d0ea1f1882ae141b1"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:76ceb49a7960b495cd77b93f57b820115c09f9a04eba4556cb1f934cbb880f61"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-win32.whl", hash = "sha256:2ba48e18a437cc4ec4c3a9a85e60b09281306e7380f5294d047b9e09417e61be"},
-    {file = "rapidfuzz-0.12.2-cp36-cp36m-win_amd64.whl", hash = "sha256:0249f44d08b52e1d7ca58a1acda9f181f35c455cb889f2110c28f938c0744c09"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:8bae4024349b7599d15fde364486b4d113cc0035b4dc0b3489a3917dbc313279"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:660a3d97276e583dc5a8d143c54deb74a37ddb47e639e176616a36603ba0736a"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:c68366ab9899feb647d6090104cb3cfb858abd21c7ae986ef346a4a779ebf57e"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:b616815bf00c3d0b8f9192de607624c860b973332c7b3764210febb0aa66dddc"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:49be7bbbc39588cbfb61220fdbbdba0d2557d1a9f46a19c4416dd0ac95525647"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-win32.whl", hash = "sha256:5ff90d95a623e1baa0fe7416953a833a435c1a62715023ccd9b01bfb122f280b"},
-    {file = "rapidfuzz-0.12.2-cp37-cp37m-win_amd64.whl", hash = "sha256:2d720ca0a40d014550a906127a9d1be99aac6d013c7ad27286e1160bcc03062a"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:e7b3e018454b931ee143fe1f42fb48fc0a7f89d037886a009425cc232e8b01aa"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-manylinux1_i686.whl", hash = "sha256:6a60e35d2921f12b4b68f956766bcfb213bb1af22b1948542a50cb27674bdaf1"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:ca87b03033ab722cfdd81e037aed692b078711078588af940f6e8f9822ef2158"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:6ab4a03eb6f68165ff142489c0c969aa4395fdc668b5bb1bf779d4249448b420"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:4b9a0f6c3d78b8298336403d6bd4f89f83ffc9f480d3edd23da656b12ad56dee"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-win32.whl", hash = "sha256:03db5c447532f43f2317217c32c534b80c62655cb9b0153f30494f86413b34c5"},
-    {file = "rapidfuzz-0.12.2-cp38-cp38-win_amd64.whl", hash = "sha256:16a1a7ee65030f413f1d40017daad20e6f3f5f0ad3c0b3a6a774871c89416062"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:4a622cab9d2dde55ea407f69a6222cb388fd943ed18290a7476450e7c6fe1a61"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-manylinux1_i686.whl", hash = "sha256:b2b07295b3880c3d8b5185b402b1d6087636535e9c6e25e6ca5e89d40c01575b"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:18d6c9d64bdf11b36cc5d08fbbaee4d14acdf2c17cf7433a866118eecc040e55"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:801466824e7891f3edea8b92355c9bd1dafefe442e31a3fb7f8822b14e7de1c1"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:74827e87ed433ddd6e20f1167b3e16ff29e236c529054bec5b89c40cf027a339"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-win32.whl", hash = "sha256:2cfc6a9259f00729f2e7b3121a9957ec258036f030a71b793d3f1cf73ab4ee76"},
-    {file = "rapidfuzz-0.12.2-cp39-cp39-win_amd64.whl", hash = "sha256:efe928188e2aee49c404015190428b88b545e2477331744abcf169584924083d"},
-    {file = "rapidfuzz-0.12.2-pp27-pypy_73-macosx_10_9_x86_64.whl", hash = "sha256:76fb59c588eea862e5233a5d6219f6c316325ee89146f14a4fa68ebe449fa947"},
-    {file = "rapidfuzz-0.12.2-pp27-pypy_73-manylinux2010_x86_64.whl", hash = "sha256:44a4b8e57c93b71e972aa95c8a7f4da64bdcbc64e8e28e8e57aaea33a84aae3f"},
-    {file = "rapidfuzz-0.12.2-pp36-pypy36_pp73-macosx_10_9_x86_64.whl", hash = "sha256:129573b980d7b54e0f8b6cbe9cd369eaa984fd67ea2a50ca4c2b033ff2b82d72"},
-    {file = "rapidfuzz-0.12.2-pp36-pypy36_pp73-manylinux1_x86_64.whl", hash = "sha256:fd733d922116f81a5d1bab6fb4402beec387a5cd40d437ea2f70cf74ff599479"},
-    {file = "rapidfuzz-0.12.2-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:ac0b2c2a6e7d176448ea100896123378cbd45d6bf1f78670279dcd18c78d34a1"},
-    {file = "rapidfuzz-0.12.2-pp36-pypy36_pp73-win32.whl", hash = "sha256:114ea55aee6fc5e814cbeb83baec2351cee2326ace1113197835b81d81fac20b"},
-    {file = "rapidfuzz-0.12.2.tar.gz", hash = "sha256:c3abe5135b565ef8bee4bcf8fc226dfa43893476306a32083d51ff6c1db5716b"},
+    {file = "rapidfuzz-0.12.3-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:4b751b4d7e8334c55f4440c1239ee023993612aeee1b6feeceb8449dd614a102"},
+    {file = "rapidfuzz-0.12.3-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:9c611c4d2c65ba916104166384e144381a4cd7624f9559d0e398ff7d3f95431c"},
+    {file = "rapidfuzz-0.12.3-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:a2ecc7bd85e199353dc245e1db0c4901ae08736a40bec429bf5ca1c79712c6fd"},
+    {file = "rapidfuzz-0.12.3-cp27-cp27mu-manylinux2010_i686.whl", hash = "sha256:d9cb7a54dc8980dbd475f3fdf44e42748a1d0c2fdeb8898a57ac9c05440c1f73"},
+    {file = "rapidfuzz-0.12.3-cp27-cp27mu-manylinux2010_x86_64.whl", hash = "sha256:80a2ae605dc1d0b4c68b3027847ede1acf51794fb9d79c7c6f4751d5e9464ac5"},
+    {file = "rapidfuzz-0.12.3-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:c6a963759df7be48b0c562aa9a0be13a99c378559bbf15da49aa8186f7bb7f83"},
+    {file = "rapidfuzz-0.12.3-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:4d1724898b931f87e844b591da206d5144ca2904900c409c063c7c225b5ee754"},
+    {file = "rapidfuzz-0.12.3-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:c6b2b462b25c0cf4b04f978b711f06a2fcc1630b3344ca65d2b43a7998929004"},
+    {file = "rapidfuzz-0.12.3-cp35-cp35m-win32.whl", hash = "sha256:605bc833010c1562820d9d837db5573f94ba001889ffb99a83cfcc17a8b9c17d"},
+    {file = "rapidfuzz-0.12.3-cp35-cp35m-win_amd64.whl", hash = "sha256:5933307f2191861cf235a796dbe2ef49d9d8a30c1bbb07c697c60f38e07eb94d"},
+    {file = "rapidfuzz-0.12.3-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:943b153d965969f832e0df8b2aa62f4fbac0e1daacac3d114232a2ecaa218cb1"},
+    {file = "rapidfuzz-0.12.3-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:0d8186ca49c2ffa170f38912c41794e51599d09b9cdb6ee96b9850d0a7db2243"},
+    {file = "rapidfuzz-0.12.3-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:36e3b7db26a756922b6bc01b153fe12d4e3483e01d6f86c2c7d017ad221168bb"},
+    {file = "rapidfuzz-0.12.3-cp36-cp36m-win32.whl", hash = "sha256:6b78d2accfc2fa552b35050a8dbcb951a457e7b7cb2788d60eda119dfe1fb632"},
+    {file = "rapidfuzz-0.12.3-cp36-cp36m-win_amd64.whl", hash = "sha256:a1557051b5b3c392888a9c9091b562a04914b7656b6012c5d5f8e10cd30beba4"},
+    {file = "rapidfuzz-0.12.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:26694c4e338b96bf5952ebc0672078fd8b4fda8ba150c460e7426924348281b9"},
+    {file = "rapidfuzz-0.12.3-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:a5ca3b33ef0563e56e22c92fe3d35580f016dc3952709256e8612f029d7e1125"},
+    {file = "rapidfuzz-0.12.3-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:13cb0ec5078967c2cc1ebc71ee09e4de7d8902f9e3acf4739a40093b94c45b07"},
+    {file = "rapidfuzz-0.12.3-cp37-cp37m-win32.whl", hash = "sha256:e012645a04528be820eb180c649bd278ee959155ca4fbbc9fd584394407b8555"},
+    {file = "rapidfuzz-0.12.3-cp37-cp37m-win_amd64.whl", hash = "sha256:058dbb7d0ce01416af533ca5b3d9d04fa34688b3f39a5341c0359f3b677d9657"},
+    {file = "rapidfuzz-0.12.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:d1baf24537dfe9d29603f59a28ccd549ad98577a6e7d7c98eaa384ae229bbd72"},
+    {file = "rapidfuzz-0.12.3-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:015db2e8dd2cc274a8edee36c509643e8fbff355d963f016543cd7cd222627f7"},
+    {file = "rapidfuzz-0.12.3-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:f65ae5cd982134f57b657958675d718744132011812d1b9cd25b7b6b1b4078cb"},
+    {file = "rapidfuzz-0.12.3-cp38-cp38-win32.whl", hash = "sha256:bfc99f5420c0a4a5a5f7bf1af6cae0fe25ef7d0df1a2f219b69eb7165b881583"},
+    {file = "rapidfuzz-0.12.3-cp38-cp38-win_amd64.whl", hash = "sha256:8937c860409bd1921eecf1d04c62f8c5cec241cb188c4bfc54d9a63dd5554ac7"},
+    {file = "rapidfuzz-0.12.3-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b501e4f234a526319f48b4d8922263014ebcdd421b8b099ee429b611308a410a"},
+    {file = "rapidfuzz-0.12.3-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:439d8d730d494ba87a1f60dd10efca792d05543344d5615274ebf64c081795c8"},
+    {file = "rapidfuzz-0.12.3-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:2e5326ee35180156241118b426381e5653344099a799397d71f8222dfeb2aa09"},
+    {file = "rapidfuzz-0.12.3-cp39-cp39-win32.whl", hash = "sha256:5c4bc39748df8c0060118a410bb9e7b10ed26ff2f2b58da03ceba19ef570cd32"},
+    {file = "rapidfuzz-0.12.3-cp39-cp39-win_amd64.whl", hash = "sha256:a527ed187ee62a5eb6ffe26c6d23c6cb3981e245fa5f852032682e7cb09815fd"},
+    {file = "rapidfuzz-0.12.3-pp27-pypy_73-macosx_10_9_x86_64.whl", hash = "sha256:aa9ff7e177d07df459d2716ab73049db356c68928c9a97dcdfbd7e144f53f12c"},
+    {file = "rapidfuzz-0.12.3-pp27-pypy_73-manylinux2010_x86_64.whl", hash = "sha256:6ecee0031f0d2f020860ef6230ebc95bb629dd3b523a728d8acc49cf7255bd9f"},
+    {file = "rapidfuzz-0.12.3-pp36-pypy36_pp73-macosx_10_9_x86_64.whl", hash = "sha256:0e76c30225b76a1470d35b8a4180387c4df26e65514dc8b7e19bf69534daa81f"},
+    {file = "rapidfuzz-0.12.3-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:79cf95ba95c76155b3c7bd89fb24d7975824e85bf8e9f8664332f0c222cdf1e2"},
+    {file = "rapidfuzz-0.12.3-pp36-pypy36_pp73-win32.whl", hash = "sha256:b5c73e221a5bf3dfca6fca5d9822fd52fa9759362cbcb1d55913b1ad54f9be92"},
+    {file = "rapidfuzz-0.12.3-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:780b73037dd041f75c335f079de41cef473fb4e3c730e9e837952d1db74d672d"},
+    {file = "rapidfuzz-0.12.3-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:633922cd888dae10c619213bbcb5d344e8931b94bb9ed6c5c059a0f528baa622"},
+    {file = "rapidfuzz-0.12.3-pp37-pypy37_pp73-win32.whl", hash = "sha256:c22ead045f8bebe705ba3803798608a10100d7b899f584181f3bf9c33303dc9c"},
+    {file = "rapidfuzz-0.12.3.tar.gz", hash = "sha256:4c181212546cdaa8dada02dbb4212c7ea9a04ba31237b2024be3c76af7e01d08"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
