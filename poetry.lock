@@ -30,7 +30,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "cutlet"
-version = "0.1.12"
+version = "0.1.16"
 description = "Romaji converter"
 category = "main"
 optional = false
@@ -223,7 +223,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "d423638971cc1b3460281397dacfd95e12125758df2ba44dae6889e42e5ea7ba"
+content-hash = "10f1fe6f4abb6e0a7680693b3de7e7ffadba67565cef7d2eec7974f36b1db7b2"
 
 [metadata.files]
 atomicwrites = [
@@ -239,7 +239,7 @@ colorama = [
     {file = "colorama-0.4.3.tar.gz", hash = "sha256:e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"},
 ]
 cutlet = [
-    {file = "cutlet-0.1.12.tar.gz", hash = "sha256:28a2fb6ae17665eb950be08c603e89aa9ddc64b14d72d0c5275de5d6e934e705"},
+    {file = "cutlet-0.1.16.tar.gz", hash = "sha256:fe103b46c4db9d68d4130973ef555cd80663b184f69871fc7efd45ea9569f9c1"},
 ]
 cython = [
     {file = "Cython-0.29.21-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:c541b2b49c6638f2b5beb9316726db84a8d1c132bf31b942dae1f9c7f6ad3b92"},
