@@ -202,7 +202,7 @@ python-versions = "*"
 
 [[package]]
 name = "unidic-lite"
-version = "1.0.7"
+version = "1.0.8"
 description = "A small version of UniDic packaged for Python"
 category = "main"
 optional = false
@@ -223,7 +223,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "d423638971cc1b3460281397dacfd95e12125758df2ba44dae6889e42e5ea7ba"
+content-hash = "1922b7f7bc83ccbcc19acc2d19911875583852374b33912dd4b5f3f28220dd33"
 
 [metadata.files]
 atomicwrites = [
@@ -405,7 +405,7 @@ toml = [
     {file = "toml-0.10.1.tar.gz", hash = "sha256:926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f"},
 ]
 unidic-lite = [
-    {file = "unidic-lite-1.0.7.tar.gz", hash = "sha256:260798392fddc8746d7d5596dc9f9a4250a10f41961771cf709ec2dc7db8260a"},
+    {file = "unidic-lite-1.0.8.tar.gz", hash = "sha256:db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245"},
 ]
 zipp = [
     {file = "zipp-3.1.0-py3-none-any.whl", hash = "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b"},
